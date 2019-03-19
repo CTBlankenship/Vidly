@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Data.SqlTypes;
 using System.Web.Mvc;
 using Vidly.Models;
 
@@ -16,6 +15,7 @@ namespace Vidly.Controllers
         public ViewResult Random()
         {
             var movie = new Movie() {Name = "Shrek!"};
+
             return View(movie);
         }
 
