@@ -28,7 +28,7 @@ namespace Vidly.Controllers
                 Movie = movie,
                 Customers = customers
             };
-
+           
             return View(viewModel);
         }
 
